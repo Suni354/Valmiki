@@ -120,6 +120,9 @@ input {
 	border-radius: 0;
 	border-width: 0 0 1px;
 }
+.list-links >ul > li{
+color: white;
+}
 textarea {
 	resize: vertical;
 	background: transparent;
@@ -217,6 +220,7 @@ label {
 	color: #626262;
 	margin-bottom: 5px;
 }
+
 *::-moz-selection {
 	background: #3399FF;
 	color: #fff;
@@ -290,6 +294,14 @@ mark {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+.section-content {
+width:250px ;
+text-align: center;
+margin-left: 50px;
+
+
+}
+
 .section-title p {
 	color: #000000;
 	font-weight: 400;
@@ -773,7 +785,7 @@ mark {
 .header-top {
 	background: #203a72 none repeat scroll 0 0;
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 30px;
 	position: relative;
 }
 .header-top span {
@@ -2347,7 +2359,7 @@ mark {
 }
 .social-icons > a:hover {
 	color: #ffffff;
-	background-color: #F4A012;
+	background-color: #ffffff;
 }
 .social-icons {
 	margin-top: 27px;
